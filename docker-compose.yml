@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+    frontend:
+        build:
+            context: .
+            target: dev
+        image: ise_2019_frontend:dev
+        container_name: frontend
+        volumes:
+            - '.:/app'
+            - /app/node_modules/
+        expose:
+            - '80'
+        networks:
+            - default
+        restart: always

@@ -1,0 +1,32 @@
+/*
+The following colors are used for categorizing the states. 
+Main colors are very strong as used in the StateCards Component as font coloring
+Background colors are very light and used to highlight something.
+*/
+$urgent_main: #ff4444;
+$warning_main: #ffcc5e;
+$ok_main: #53dd6c;
+$info_main: #8a8d91;
+
+$urgent_background: #ffd6d6;
+$warning_background: #fff0ce;
+$ok_background: #d5ffdd;
+$info_background: #e1e2e4;
+
+$error: #f56c6c;
+
+$incontext_orange: #ff5900;
+$incontext_grey: #454545;
+$incontext_black: #1e2022;
+$incontext_lightgrey: #e6e6e6;
+$incontext_forest: #017c76;
+$incontext_sunset: #e36222;
+$incontext_ocean: #024d80;
+$incontext_forest_light: #91c6c4;
+$incontext_sunset_light: #f3bba6;
+$incontext_ocean_light: #b4dbf5;
+
+$--color-success: #ff5900;
+$--color-primary: #3284bb;
+
+@import '~element-ui/packages/theme-chalk/src/common/var';

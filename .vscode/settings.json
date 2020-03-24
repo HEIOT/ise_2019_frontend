@@ -1,0 +1,12 @@
+{
+    "tslint.typeCheck": true,
+    "editor.formatOnSave": true,
+    "tslint.autoFixOnSave": true,
+    "javascript.format.enable": false,
+
+    "vetur.format.enable": true,
+    "vetur.format.defaultFormatter.html": "prettier",
+    "vetur.format.defaultFormatter.ts": "prettier",
+    "vetur.format.defaultFormatter.scss": "prettier",
+    "vetur.format.defaultFormatter.css": "prettier"
+}

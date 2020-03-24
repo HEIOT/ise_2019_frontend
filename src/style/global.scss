@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.tooltip-content,
+.el-select-dropdown {
+    font-family: 'Helvetica';
+}
+
+.multiselect__option--selected {
+    font-weight: initial;
+}
+
+/*
+styles for headings and spacings
+*/
+.spacing-top-small {
+    margin-top: 20px;
+}
+.spacing-top {
+    margin-top: 40px;
+}
+.spacing-top-big {
+    margin-top: 60px;
+}
+.spacing-bottom {
+    margin-bottom: 40px;
+}
+.custom-page-header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #e6e6e6;
+    background-color: white;
+    padding: 0 80px;
+}
+.custom-page-header-fixed {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #e6e6e6;
+    background-color: white;
+    padding: 0 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.custom-page-content {
+    padding: 30px 80px;
+}
+.custom-page-content-fixed {
+    padding: 100px 80px 30px 80px;
+}
+.custom-title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.custom-subtitle {
+    text-align: left;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.custom-section-title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 60px 0 40px 0;
+}
+.custom-card {
+    padding: 40px;
+    min-height: 100px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.custom-card {
+    padding: 40px;
+    min-height: 100px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+@import './colours.scss';
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+@import '~element-ui/packages/theme-chalk/src/index';
+
+@media only screen and (max-width: 1200px) {
+    .custom-title {
+        font-size: 40px;
+    }
+
+    .custom-subtitle {
+        font-size: 20px;
+    }
+
+    .custom-section-title {
+        font-size: 22px;
+        margin: 30px 0;
+    }
+
+    .custom-page-content {
+        padding: 20px 30px;
+    }
+
+    .custom-page-content-fixed {
+        padding: 80px 30px 20px 30px;
+    }
+
+    .custom-page-header {
+        height: 80px;
+        padding: 0 30px;
+    }
+
+    .custom-page-header-fixed {
+        height: 80px;
+        padding: 0 30px;
+    }
+
+    .custom-card {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .custom-page-content {
+        padding: 16px;
+    }
+}
